@@ -1,6 +1,6 @@
 # Ecommerce API
 
-[![Build Status](https://github.com/edgar320/ecommerce-api/actions/workflows/ci.yml/badge.svg)](https://github.com/edgar320/ecommerce-api/actions)
+[![Build Status](https://github.com/edgar320/ecommerce-api/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/edgar320/ecommerce-api/actions)
 [![Docker](https://img.shields.io/badge/docker-latest-blue)](https://github.com/edgar320/ecommerce-api/pkgs/container/ecommerce-api)
 [![Node](https://img.shields.io/badge/node-v18-green)](https://nodejs.org/en/)
 [![Coverage](https://img.shields.io/badge/coverage-0%25-red)](https://github.com/edgar320/ecommerce-api) <!-- Actualiza cuando tengas reporte de cobertura -->
