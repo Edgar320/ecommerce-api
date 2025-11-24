@@ -1,0 +1,12 @@
+name: CI Badge Test
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "CI Badge Test Success"
