@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --coverage",
+    "test:integration": "jest --testPathPattern=tests/integration"
+  },
+  "keywords": ["api", "ecommerce", "orders"],
+  "author": "",
+  "license": "ISC",
+  "description": "E-commerce Orders API",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4"
+  }
+}
